@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'EnhancedCircleImageView_Example' do
+  pod 'EnhancedCircleImageView', :path => '../'
+end
