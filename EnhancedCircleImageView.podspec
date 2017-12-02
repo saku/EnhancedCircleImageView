@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Simple and useful circle UIImageView."
   s.description  = <<-DESC
 Simple and useful circle UIImageView.
+This library doesn't use clipToBounds or layer.masksToBounds, so it shape is not rectangle at a glance.
   DESC
   s.homepage     = "https://github.com/saku/EnhancedCircleImageView"
   s.license      = { :type => "MIT", :file => "LICENSE" }
