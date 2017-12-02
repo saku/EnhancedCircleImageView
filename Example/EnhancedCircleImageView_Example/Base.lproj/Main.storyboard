@@ -18,21 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J5e-5l-Xtn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectancle_width" translatesAutoresizingMaskIntoConstraints="NO" id="J5e-5l-Xtn" customClass="EnhancedCircleImageView" customModule="EnhancedCircleImageView">
                                 <rect key="frame" x="157" y="303" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="P4Q-vr-OtM"/>
                                     <constraint firstAttribute="width" constant="60" id="rjP-W9-hiR"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tZY-I3-25W">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tZY-I3-25W" customClass="EnhancedCircleImageView" customModule="EnhancedCircleImageView">
                                 <rect key="frame" x="157" y="203" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="Rvr-I9-sti"/>
                                     <constraint firstAttribute="height" constant="60" id="wkk-Wy-DKq"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OY7-N6-PWA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OY7-N6-PWA" customClass="EnhancedCircleImageView" customModule="EnhancedCircleImageView">
                                 <rect key="frame" x="157" y="403" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Efz-aa-iLO"/>
@@ -51,9 +51,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="borderImageView" destination="OY7-N6-PWA" id="Tet-I3-q04"/>
+                        <outlet property="heightImageView" destination="tZY-I3-25W" id="O3G-mu-8Mc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="rectancle_width" width="171" height="70"/>
+    </resources>
 </document>
