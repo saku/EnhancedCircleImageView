@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-import EnhancedCircleImageView
+@testable import EnhancedCircleImageView
 
 class EnhancedCircleImageViewTests: XCTestCase {
     func testExample() {

@@ -1,0 +1,7 @@
+language: objective-c
+matrix:
+    include:
+        - osx_image: xcode9.1
+
+script:
+    - xcodebuild -scheme 'EnhancedCircleImageView-iOS' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8' -configuration Debug test
