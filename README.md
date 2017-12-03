@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/EnhancedCircleImageView.svg?style=flat)](http://cocoapods.org/pods/EnhancedCircleImageView)
 [![License](https://img.shields.io/cocoapods/l/EnhancedCircleImageView.svg?style=flat)](http://cocoapods.org/pods/EnhancedCircleImageView)
 [![Platform](https://img.shields.io/cocoapods/p/EnhancedCircleImageView.svg?style=flat)](http://cocoapods.org/pods/EnhancedCircleImageView)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/hsylife/SwiftyPickerPopover)
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
